@@ -1,8 +1,8 @@
 const allowedCors = [
-  'https://films.mvtt.nomoredomains.xyz',
-  'http://films.mvtt.nomoredomains.xyz',
-  'https://api.films.mvtt.nomoredomains.xyz',
-  'http://api.films.mvtt.nomoredomains.xyz',
+  'https://beatfilms.mvtt.nomoreparties.co',
+  'http://beatfilms.mvtt.nomoreparties.co',
+  'https://api.beatfilms.mvtt.nomoreparties.co',
+  'http://api.beatfilms.mvtt.nomoreparties.co',
   'https://localhost:3001',
   'http://localhost:3001',
 ];
