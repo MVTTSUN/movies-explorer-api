@@ -51,7 +51,7 @@ const postMovie = (req, res, next) => {
 };
 
 const deleteMovie = (req, res, next) => {
-  Movie.findOne({ movieId: req.params.movieId })
+  Movie.findOne({ movieId: req.params.movieId, owner: req.user._id })
     .then((movie) => {
       if (movie) {
         const owner = movie.owner.toString();
